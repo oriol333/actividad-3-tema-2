@@ -1,0 +1,42 @@
+body{
+    /*background-color: chartreuse;*/
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:  "Lucida Sans", "Lucida Sans Regular", "Lucida Grar";
+}
+
+h1{
+    background-color: rgb(151, 29, 39);
+    text-align: center;
+    border: 5px solid rgb(255, 136, 0);
+    padding: 10px;
+}
+
+h2{
+    color: rgba(249, 253, 0, 0.432);
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    /* Borde naranja */
+    border: 5px solid rgb(255, 51, 0);
+    /* Color de fondo blanco */
+    background-color: rgb(192, 206, 6);
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+}
+
+a{
+    color: orangered;
+    font-weight: bold;
+}
